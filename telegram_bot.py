@@ -19,7 +19,7 @@ def handle_text(message):
     print(message)
     bot.send_message(message.chat.id, 'Датасет: ' + message.text)
     # dataset = True
-    # print(message)
+    print(123)
     bot.send_message(message.chat.id, 'Напиши колонку')
     # bot.send_message(message.chat.id, 'Напиши для чего')
 
